@@ -12,6 +12,7 @@ from urllib.request import urlretrieve
 import pyblish.api
 from ayon_comfyui.api.rpc_stub import PublishType
 from ayon_core.pipeline import registered_host
+from ayon_core.lib import transcoding
 from ayon_core.pipeline.publish.lib import get_instance_staging_dir
 
 if TYPE_CHECKING:
