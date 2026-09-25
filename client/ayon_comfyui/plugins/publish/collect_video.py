@@ -128,6 +128,9 @@ class CollectVideo(pyblish.api.InstancePlugin):
                 "files": video_info.video_file,
                 "stagingDir": staging_dir,
                 "tags": ["review"],
+                "frameStart": frame_start,
+                "frameEnd": frame_end,
+                "fps": fps,
             }
         )
 
